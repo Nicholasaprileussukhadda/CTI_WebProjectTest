@@ -44,34 +44,35 @@
                 </div>
                 <div id="form" class="w-1/3 pl-8">
                     <div class="bg-white p-4 rounded-md">
-                        <form class="mt-2 p-2">
+                        <form action="{{ url('/formsent') }}" method="POST" class="mt-2 p-2">
+                            @csrf
                             <h3 class="text-2xl font-bold">Dapatkan Free Trial selama 1 bulan,</h3>
                             <h3 class="text-lg mt-2"> analisa keamanan network anda dan lihat hasilnya!</h3>
                             <div class="flex gap-2 mt-8">
                                 <div class="w-full">
                                     <label for="first-name" class="block text-sm font-medium text-gray-700">First Name</label>
-                                    <input type="text" id="first-name" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="First Name" required>
+                                    <input type="text" id="first-name" name="first_name" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="First Name" required>
                                 </div>
                                 <div class="w-full">
                                     <label for="last-name" class="block text-sm font-medium text-gray-700">Last Name</label>
-                                    <input type="text" id="last-name" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="Last Name" required>
+                                    <input type="text" id="last-name" name="last_name" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="Last Name" required>
                                 </div>
                             </div>
                             <div class="mt-2">
                                 <label for="email" class="block text-sm font-medium text-gray-700">Corporate Email</label>
-                                <input type="email" id="email" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="email@mail.com" required>
+                                <input type="email" id="email" name="email" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="email@mail.com" required>
                             </div>
                             <div class="mt-2">
                                 <label for="job" class="block text-sm font-medium text-gray-700">Job Title</label>
-                                <input type="text" id="job" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="Your Job" required>
+                                <input type="text" id="job" name="job" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="Your Job" required>
                             </div>
                             <div class="mt-2">
-                                <label for="company" class="block text-sm font-medium text-gray-700">Your Company</label>
-                                <input type="text" id="company" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="Your Company" required>
+                                <label for="company" class="block text-sm font-medium text-gray-700">Compay Title</label>
+                                <input type="text" id="job" name="job" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="Your Company" required>
                             </div>
                             <div class="mt-2">
                                 <label for="industry" class="block text-sm font-medium text-gray-700">Industry</label>
-                                <select id="industry" class="w-full h-12 p-2 border border-black rounded-lg" required>
+                                <select id="industry" name="industry" class="w-full h-12 p-2 border border-black rounded-lg" required>
                                     <option value="" disabled selected>Select Industry</option>
                                     <option value="technology">Technology</option>
                                     <option value="finance">Finance</option>
@@ -82,16 +83,16 @@
                             </div>
                             <div class="mt-2">
                                 <label for="number" class="block text-sm font-medium text-gray-700">Your Number</label>
-                                <input type="tel" id="number" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="Your Number" required>
+                                <input type="tel" id="number" name="number" class="w-full h-12 p-2 border border-black rounded-lg" placeholder="Your Number" required>
                             </div>
                             <div class="mt-4">
                                 <label class="inline-flex items-center">
-                                    <input type="checkbox" class="form-checkbox h-5 w-5 text-[#04BE02]" required>
+                                    <input type="checkbox" class="form-checkbox h-5 w-5 text-[#04BE02]">
                                     <span class="ml-2 text-gray-700">Click this box to agree to be contacted by our team and get great deals on Sangfor for Helios!</span>
                                 </label>
                             </div>
                             <div class="flex justify-center mt-4">
-                                <button class="w-1/2 h-12 bg-[#04BE02] text-white font-semibold uppercase rounded-lg">Send</button>
+                                <button type="submit" class="w-1/2 h-12 bg-[#04BE02] text-white font-semibold uppercase rounded-lg">Send</button>
                             </div>
                         </form>
                     </div>
