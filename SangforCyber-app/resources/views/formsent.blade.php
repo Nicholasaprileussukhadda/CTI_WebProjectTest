@@ -15,7 +15,7 @@
         </div>
     </header>
 
-    <div id="app" class="relative bg-cover bg-center h-svh" style="background-image: url('img/Form_Section.jpeg');">
+    <div id="app" class="relative bg-cover bg-center md:h-svh h-1/2" style="background-image: url('img/Form_Section.jpeg');">
         <div class="flex justify-center items-center p-8 w-full">
             <div class="flex flex-col w-1/3 bg-opacity-90 p-8 rounded-lg">
                 <img src="img/THX.png" class="w-full mx-auto">

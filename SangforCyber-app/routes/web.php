@@ -10,7 +10,6 @@ Route::get('/', function () {
 
 
 Route::post('/formsent', function (Request $request) {
-    // Handle form submission logic here
 
     return view('formsent');
 });
