@@ -97,6 +97,92 @@
             </div>
         </div>
     </div>
+
+    <div id="advantage-section" class="relative bg-cover bg-center h-[120vh] font-rubik" style="background-image: linear-gradient(to bottom right, rgba(0, 0, 142, 0.5), rgba(4, 190, 2, 0.5)), url('img/Advantages_Section.jpeg');">
+        <div class="absolute inset-0 justify-center flex flex-wrap font-rubik px-8 mt-16">
+            <h1 class="text-center font-bold text-4xl text-white mb-8">Sangfor Cyber Command Advantages</h1>
+            <div class="flex w-full h-fit justify-center">
+                <div class="flex w-1/4 bg-white p-4 m-2">
+                    <div class="p-4 flex flex-col items-center text-center">
+                        <img src="img/AdvanceADV.png" class="h-1/3 mx-auto">
+                        <h2 class="text-2xl font-bold mt-4">Advanced Threat Detection</h2>
+                        <p class="mt-4">Sangfor Cyber Command offers advanced threat detection capabilities that can help users identify and respond to potential security threats in real-time. This includes identifying and blocking malware, ransomware, and other types of cyber threats.</p>
+                    </div>
+                </div>
+                <div class="flex w-1/4 bg-white p-4 m-2">
+                    <div class="p-4 flex flex-col items-center text-center">
+                        <img src="img/NetworkADV.png" class="h-1/3 mx-auto">
+                        <h2 class="text-2xl font-bold mt-4">Network Visibility and Control</h2>
+                        <p class="mt-4">Sangfor Cyber Command provides users with visibility and control over their network infrastructure. This includes monitoring network traffic, controlling access to resources, and managing network policies.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex w-full h-fit justify-center mt-4 mb-16">
+                <div class="flex w-1/4 bg-white p-4 m-2">
+                    <div class="p-4 flex flex-col items-center text-center">
+                        <img src="img/CloudADV.png" class="h-1/3 mx-auto">
+                        <h2 class="text-2xl font-bold mt-4">Cloud Security</h2>
+                        <p class="mt-4">Sangfor Cyber Command offers cloud security solutions that can help users secure their cloud-based applications and infrastructure. This includes protecting against cloud-specific threats like data breaches, account hijacking, and insider threats.</p>
+                    </div>
+                </div>
+                <div class="flex w-1/4 bg-white p-4 m-2">
+                    <div class="p-4 flex flex-col items-center text-center">
+                        <img src="img/SecureADV.png" class="h-1/3 mx-auto">
+                        <h2 class="text-2xl font-bold mt-4">Comprehensive Security Management</h2>
+                        <p class="mt-4">Sangfor Cyber Command provides users with a comprehensive security management platform that can help them manage and monitor their entire security infrastructure from a single console. This includes managing security policies, tracking security events, and generating reports.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="features-section" class="relative bg-white font-rubik py-16">
+        <div class="justify-center flex flex-wrap font-rubik px-8 mx-auto" style="max-width: 1200px;">
+            <h1 class="text-center font-bold text-4xl text-[#293660] w-full">Sangfor Cyber Command Features</h1>
+            <div class="flex w-full justify-center mt-8">
+                <div class="flex w-1/3 p-4 rounded-md m-2">
+                    <div class="p-4 flex flex-col items-center text-center">
+                        <img src="img/featuresimg/threat_feature.png" class="h-1/2 mx-auto">
+                        <h2 class="text-2xl font-bold mt-4">Threat Intelligence</h2>
+                        <p class="mt-4">Advanced AI algorithms and machine learning provide comprehensive threat intelligence to stay ahead of the latest cyber threats.</p>
+                    </div>
+                </div>
+                <div class="flex w-1/3 p-4 rounded-md m-2">
+                    <div class="p-4 flex flex-col items-center text-center">
+                        <img src="img/featuresimg/RTfeature.png" class="h-1/2 mx-auto">
+                        <h2 class="text-2xl font-bold mt-4">Real-Time Detections</h2>
+                        <p class="mt-4">Real-time alert system provides instant notification of potential security incidents.</p>
+                    </div>
+                </div>
+                <div class="flex w-1/3 p-4 rounded-md m-2">
+                    <div class="p-4 flex flex-col items-center text-center">
+                        <img src="img/featuresimg/Investigationfeature.png" class="h-1/2 mx-auto">
+                        <h2 class="text-2xl font-bold mt-4">Threats Investigation</h2>
+                        <p class="mt-4">In-depth Threat investigation capabilities identify the root cause of security incidents and take appropriate action to prevent future occurrences.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex w-full justify-center">
+                <div class="flex w-1/3 p-4 rounded-md m-2">
+                    <div class="p-4 flex flex-col items-center text-center">
+                        <img src="img/featuresimg/securityfeature.png" class="h-1/2 mx-auto">
+                        <h2 class="text-2xl font-bold mt-4">Comprehensive Security Solutions</h2>
+                        <p class="mt-4">In-depth Threat investigation capabilities identify the root cause of security incidents and take appropriate action to prevent future occurrences.</p>
+                    </div>
+                </div>
+                <div class="flex w-1/3 p-4 rounded-md m-2">
+                    <div class="p-4 flex flex-col items-center text-center">
+                        <img src="img/featuresimg/rapidfeature.png" class="h-1/2 mx-auto">
+                        <h2 class="text-2xl font-bold mt-4">Rapid Response</h2>
+                        <p class="mt-4">Tight integration with network and endpoint security solutions enables quick response to potential security incidents, minimizing the impact of any attacks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     </div>
 </body>
 </html>
